@@ -6,11 +6,11 @@ Created on Wed Jul  9 20:30:28 2025
 """
 import pickle
 import streamlit as st
-vectorizer_mbti=pickle.load(open("C:/Users/nrna1/anaconda3/envs/MachineLearning/vectorizer_mbti.sav",'rb'))
-model_I_mbti=pickle.load(open("C:/Users/nrna1/anaconda3/envs/MachineLearning/model_I_mbti.sav",'rb'))
-model_N_mbti=pickle.load(open("C:/Users/nrna1/anaconda3/envs/MachineLearning/model_N_mbti.sav",'rb'))
-model_F_mbti=pickle.load(open("C:/Users/nrna1/anaconda3/envs/MachineLearning/model_F_mbti.sav",'rb'))
-model_P_mbti=pickle.load(open("C:/Users/nrna1/anaconda3/envs/MachineLearning/model_P_mbti.sav",'rb'))
+vectorizer_mbti=pickle.load(open('vectorizer_mbti.sav','rb'))
+model_I_mbti=pickle.load(open('model_I_mbti.sav','rb'))
+model_N_mbti=pickle.load(open('model_N_mbti.sav','rb'))
+model_F_mbti=pickle.load(open('model_F_mbti.sav','rb'))
+model_P_mbti=pickle.load(open('model_P_mbti.sav','rb'))
 
 def predict_mbti(text):
     # Use global models and vectorizer
