@@ -6,7 +6,7 @@ Created on Wed Jul  9 20:30:28 2025
 """
 import pickle
 import streamlit as st
-vectorizer_mbti=pickle.load(open('vectorizer_mbti.sav','rb'))
+vectorizer_mbti=pickle.load(open('mbti_app/vectorizer_mbti.sav','rb'))
 model_I_mbti=pickle.load(open('model_I_mbti.sav','rb'))
 model_N_mbti=pickle.load(open('model_N_mbti.sav','rb'))
 model_F_mbti=pickle.load(open('model_F_mbti.sav','rb'))
